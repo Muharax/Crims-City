@@ -1,0 +1,171 @@
+.button {
+	padding: 2px;
+	margin-left:20px;
+	float:left;
+}
+.cofnij {
+	padding:5px;
+	background-color: black;
+	border: solid 1px #18c718;
+	color: #18c718;
+	margin-left: 5px;
+	text-decoration:none;
+}
+.cofnij:hover {
+	padding:5px;
+	background-color: black;
+	border: solid 1px #18c718;
+	color: red;
+	margin-left: 5px;
+	outline: none;
+	text-decoration:none;
+}
+.exit {
+	padding:5px;
+	font-size: 14px;
+	padding:  8px 12px;
+	border-radius: 25px;
+	background-color: black;
+	border: solid 1px #18c718;
+	color: red;
+	margin-left: 5px;
+	text-decoration:none;
+}
+.exit:hover {
+  background-color: black;
+  color: red;
+  border: solid 1px red;
+  text-decoration: none;
+  padding:  8px 12px;
+  text-shadow: 6px red, 6px red;
+}
+input[name="wyslij"]{
+	padding:5px;
+	background-color: black;
+	border: solid 1px #18c718;
+	color: #18c718;
+	margin-left: 5px;
+}
+input[name="wyslij"]:focus{
+	padding:5px;
+	background-color: black;
+	border: solid 1px #18c718;
+	color: red;
+	margin-left: 5px;
+	outline: none;
+}
+.button2 {
+  background-color: #a928ab;
+  border-radius: 10px;
+  color: white;
+  font-size: 14px;
+  display: inline-block;
+  padding:  4px 12px;
+  text-decoration: none;
+}
+.button2:hover {
+  background-color: blue;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  text-shadow:2px 3px 6px red, 4px 6px 6px black;
+}
+
+.intozal{
+	margin-left:10px;
+	margin-right:10px;
+	margin-top: 10px;
+	border: 1px solid white;
+	border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+	display:block;
+	}
+.intobase {
+	color: red;
+	padding: 8px;
+}
+.zal {
+	padding: 10px;
+	float:right;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+img {
+	
+	radius: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.button-logout:hover {
+  background-color: black;
+  color: white;
+}
+.clear-both{
+	
+	clear:both;
+}
+
+.box-code{
+	
+	margin-top:50px;
+}
+
+label {
+	
+	color:white;
+}
+
+.kalkulator{
+	
+	
+}
+#wyswietlacz{
+	
+	color:white;
+}
+#wysw{
+	
+	color:white;
+	width:300px;
+}
+
+table, tr, td {
+	
+	border: solid 2px white;
+	padding: 3px;
+	color: white;
+}
+ 
+
+
+
+
+
+

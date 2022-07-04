@@ -1,0 +1,679 @@
+/* ------------- BODY --------------- */
+
+body {
+	display: block;
+    background-image: url(../img/back.jpg);
+    background-color: black !important;
+    position: absolute;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+/* ------------- NAVIGACJA / NAVBAR --------------- */
+.navbar {
+
+	top:0;
+	position:fixed;
+	right:0;
+	left:0;
+	z-index:1030;
+	margin-bottom:0;
+	overflow:visible;
+	border-bottom: solid 1px white;
+	background-color:black;
+}
+
+.navbar:hover {
+
+	border-bottom: solid 1px red;
+	
+}
+.navbar-li {
+	display:inline-block;
+	margin-left:10px;
+	color:white;
+	border-left:solid 1px white;
+	border-right:solid 1px white;
+	padding:15px;
+}
+
+.my-site{
+	
+	color:white;
+	display: inline-block;
+	border-left:solid 1px red;
+	border-right:solid 1px red;
+	padding:15px;
+	margin-left:80px;
+}
+.my-site:hover{
+	
+	color:red;
+}
+
+.navbar-li:hover {
+	color:red;
+	border-left:solid 1px red;
+	border-right:solid 1px red;
+	
+}
+
+#container{
+	
+	width:940px;
+	margin-left:auto;
+	margin-right:auto;
+	font-family: Impact;
+	
+}
+.container {
+	
+	margin-left:50px;
+	margin-top: 100px;
+	color:white;
+	overflow:hidden;
+
+}
+
+.wyloguj{
+	margin-left:20%;
+}
+#respekt{
+	margin-top: 13px;
+	float:right;
+	font-family: Impact;
+}
+
+#money{
+	margin-top: 13px;
+	float:right;
+	margin-right:7px;
+	font-family: Impact;
+}
+.respekt-nazwa{
+	
+	display:inline-block;
+	color:white;
+}
+.respekt-punkty{
+	
+	display:inline-block;
+	color:white;
+}
+
+.ustawienia-profil{
+	
+	padding:10px;
+}
+
+.ustawienia{
+	
+	font-size:18px;
+	padding:5px;
+	float:left;
+}
+.view-ustawienia {
+	
+	float:left;
+}
+/* ------------- CONTENT --------------- */
+.content{
+	
+	border: solid 1px white;
+	float:left;
+	width:48%;
+	height:auto;
+	color:white;
+	margin-left:80px;
+	background-color:black;
+
+}
+
+/* ------------- SKLEP --------------- */
+.sklep-pole-marichuany{
+	
+	padding:8px;
+	float:left;
+	margin-top:40px;
+	margin-right:40px;
+}
+.sklep-wytwornia-amfetaminy{
+	
+	padding:8px;
+	float:left;
+	margin-top:40px;
+	margin-right:40px;
+	
+}
+.sklep-kup{
+	
+	float:left;
+}
+
+.marichuanaimg{
+
+	float:left;
+}
+
+.sklep-budynek{
+	
+	clear:both;
+}
+
+.sklep-alert{
+	
+	color:red;
+}
+
+.sklep-alert{
+	
+	
+	
+}
+/* ------------- LEWA STRONA --------------- */
+
+.menu{
+	
+	float:left;
+	min-width:130px;
+	width:15%;
+}
+
+
+
+
+.view-score-a{
+	
+	float:left;
+}
+
+.view-score-b{
+	
+	clear:both;
+}
+/* ------------- STRONA GŁOWNA --------------- */
+
+.view-sg{
+	overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;
+	clear:both;
+	border:solid 1px white;
+
+}
+
+h1, h2, h3{
+	
+	color:white;
+	text-align: center;
+}
+/* ------------- PRAWA STRONA --------------- */
+ 
+.right{ 
+	
+	float:left;
+	border: solid 1px white;
+	margin-left:5%;
+	width:20%;
+}
+
+.right-game {
+	
+	border: solid 1px white;
+	padding: 10px;
+}
+/* ------------- TWOJA POSTAAC / CHARAKTER  --------------- */
+.pkt {
+	
+	
+	padding: 11px;
+	color:white;
+	margin:2px;
+	margin-bottom:5px;
+}
+.pkt-score {
+	
+	
+	padding: 6px;
+	color:#10e40d;
+	margin:2px;
+	margin-bottom:10px;
+}
+
+.pkt-score-c{
+	
+	
+	padding: 9px;
+	color:#10e40d;
+	margin:2px;
+	margin-bottom:10px;
+	
+}
+
+.view-game {
+
+	overflow:hidden;
+	float:left;
+}
+
+.view-score{
+	float:left;
+	overflow:hidden;
+}
+
+.game-link {
+	
+	border: solid 1px white;
+	padding: 8px;
+	margin: 3px;
+	border-radius: 13px;
+	width:170;
+}
+
+.game-link:hover {
+	
+	border:solid 1px #40d610;
+	color:#40d610;
+}
+
+a {
+	
+	text-decoration:none;
+
+}
+a:hover {
+	
+	text-decoration:none;
+	
+
+}
+
+table, th{
+	
+	border:solid 1px white;
+}
+
+.character-wspolczynnik-pierdolniecia{
+	
+	clear:both;
+}
+/* ------------- START-STRONA-GLOWNA ---  ssg  --------------- */
+
+
+.ssg-content{
+	
+	border: solid 1px white;
+	float:left;
+	width:60%;
+	color:white;
+	margin-left:4%;
+	background-color:#000000;
+}
+.view-ssg{
+	overflow:hidden;
+	clear:both;
+
+
+}
+.view-ssg-h4{
+	
+	margin-top:20px;
+	margin-bottom:20px;
+	padding:30px;
+}
+
+.right-ssg{ 
+	float:left;
+	border: solid 1px white;
+	margin-left:20px;
+	width:20%;
+	background-color:#000000;
+}
+.right-view-ssg {
+	
+	border: solid 1px white;
+	padding: 10px;
+}
+
+.navbar-li-ssg-logo {
+    vertical-align: middle;
+	display: inline-block;
+}
+
+.navbar-li-ssg {
+	display: inline-block;
+	color:white;
+	border-left:solid 1px white;
+	border-right:solid 1px white;
+	padding:15px;
+}
+
+.navbar-li-ssg:hover {
+	border-left:solid 1px red;
+	border-right:solid 1px red;
+	
+}
+
+h4 {
+	font-size:13px;
+	color:white;
+	
+	
+}
+
+.span-green{
+	
+	color:#24ff0a;
+}
+
+.span-green:hover{
+	
+	color:red;
+}
+
+.span-blue{
+	
+	color:#14c7c7;
+}
+/* ------------- LOGOWANIE START-CRIMS-CITY --------------- */
+#ssg-login-name {
+	
+	max-width: 80%;
+	height:20px;
+	padding: 1px;
+}
+
+#ssg-pass-name {
+	
+	max-width: 80%;
+	height:20px;
+	padding: 1px;
+}
+
+#ssg-zaloguj {
+	max-width:100%;
+
+}
+
+#ssg-obrazek {
+	
+	max-width: 80%;
+}
+
+
+.zaloguj-ssg{
+	
+	overflow: hidden;
+}
+
+.alert{
+	
+	width:40%;
+	padding:5px;
+	color:red;
+	overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+.zaloguj-ssg-1 {
+	text-align:center;
+	width:30%;
+	padding:5px;
+	overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;
+}
+.zaloguj-ssg-2 {
+	
+	float:left;
+	width:45%;
+	padding:5px;
+	overflow:hidden;
+
+}
+
+.zaloguj-ssg-2 > a{
+	
+	float:left;
+	height:10em;
+}
+.zaloguj-ssg-all {
+	
+	width:80%;
+	padding:5px;
+	overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.right-view-ssg-login{
+	
+	padding: 10px;
+	float:left;
+	height:10em;
+	
+}
+
+.zaloguj-ssg-links{
+	
+    margin-top: 12%;
+}
+/* -------------  TARGOWISKO --------------- */
+/* ZMIENNE */
+
+
+.targowisko{
+	
+	background-image: url(../img/targowisko/miasto2da.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:450px;
+	
+}
+
+.targowisko2{
+	
+	margin-left:150px;
+	margin-top:40px;
+	width:30px;
+	height:80px;
+	transform: rotate(80deg);
+}
+
+.targowisko3{
+	
+	margin-left:180px;
+	margin-top:27px;
+	width:30px;
+	height:80px;
+	transform: rotate(80deg);
+}
+
+.targowisko4{
+	
+	margin-left:330px;
+	margin-top:-85px;
+	width:30px;
+	height:70px;
+	transform: rotate(98deg);
+	word-break: break-all;
+
+}
+
+.targowisko5{
+	
+	margin-left:390px;
+	margin-top:40px;
+	width:50px;
+	height:110px;
+	transform: rotate(90deg);
+	word-break: break-all;
+
+}
+
+
+/* ------------- WIADOMOSCI --------------- */
+.wiadomosci{
+	
+	
+	
+}
+.odebrane{
+	
+	float:left;
+	margin-right:20px;
+	
+}
+.archiwum{
+	
+	clear:both;
+	
+}
+
+.wiadomosci-wyswietlanie{
+	
+	float:left;
+	width:auto;
+	border:solid 1px red;
+}
+/* ------------- STATYSTYKI --------------- */
+.statystyki-srodek{
+	
+	padding:10px;
+	
+}
+.tabela-statystyki{
+	
+	padding: 8px;
+	text-align: center;
+}
+
+.tabela-nazwy{
+	
+	border: solid 1px green;
+	padding: 5px;
+	font-size: 25px;
+}
+
+.tabela-nazwy-ranking{
+	
+	border: solid 1px green;
+	padding: 5px;
+	font-size: 20px;
+}
+
+.tabela-statystyki > td{
+	
+	border: solid 1px red;
+	padding: 8px;
+	text-align: center;
+}
+
+/* ------------- REJESTRACJA - SSG --------------- */
+
+.rejestracja-ssg{
+	
+	padding:15px;
+}
+
+#button-rejestracja-ssg{
+	
+	padding:10px;
+	color:red;
+}
+
+#rejestracja-formularz-ssg{
+	
+	padding:7px;
+	font-size:14px;
+}
+/* ------------- BAR --------------- */
+
+.amfetamina{
+	
+	color:red;
+	
+}
+.view-bar{
+	clear:both;
+	border: solid 1px white;
+	height:300px;
+
+}
+.view-bar-class{
+	clear:both;
+		
+}
+.view-bar-name {
+	
+	margin-bottom:10px;
+	float:left;
+	padding:1px;
+	min-width: 120px;
+}
+
+.inside{
+
+	float:left;
+	margin-left: 15px;
+}
+
+.wejdz{
+	
+	background-color:black;
+	color: green;
+}
+
+.center{
+	
+	text-align:center;
+}
+
+.pkt-score-input{
+	
+	width:17px;
+}
+
+.zmien{
+	
+	float:left;
+	
+}
+
+.bbb{
+	
+	clear:both;
+	color:red;
+}
+
+.view-bar-cytrus{
+
+	padding:5px;
+	word-break: break-all; // Z DIV BEZ ENTERA WYLEWAJĄ SIE ZNAKI
+
+}
+
+.bar_otwarty{
+	
+	clear:both;
+	
+	
+}
+
+/* USUWANIE STRZAŁEK Z INPUTA NUMBER */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+

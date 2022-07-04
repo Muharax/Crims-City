@@ -1,0 +1,1 @@
+<a href="?link=targowisko">WRÓC DO MIASTA</a>
